@@ -1,6 +1,8 @@
 * {
     background-color: black;
-    margin: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .btn {
@@ -88,4 +90,10 @@ h2 {
 
 .down {
     margin-left: 23%;
+}
+
+.information {
+    color: azure;
+    text-align: right;
+    justify-content: right;
 }
