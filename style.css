@@ -1,11 +1,83 @@
 * {
     background-color: black;
-    margin: 10%;
+    margin: 5%;
+}
+
+.btn {
+    border: none;
+    background-color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.btn:hover {
+    background: #7e7e7e;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    background-color: white;
+    text-align: center;
 }
 
 #screen {
     background-color: white;
-    margin: 10%;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
 }
+
+.bpad {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+}
+
+.block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.alph {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 50%;
+    gap: 20px;
+}
+
+.woo:nth-child(1) {
+    grid-column: 1;
+}
+
+.woo:nth-child(2) {
+    grid-column: 2;
+}
+
+.direction {
+    text-align: center;
+}
+
+.lf {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+}
+
+.wee:nth-child(1) {
+    grid-column: 1;
+}
+
+.wee:nth-child(2) {
+    grid-column: 2;
+}
+
